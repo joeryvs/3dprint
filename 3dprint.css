@@ -1,6 +1,7 @@
 body {
     background-color: tomato;
     border-radius: 100cm;
+    empty-cells: show;
 }
 
 
@@ -19,4 +20,9 @@ div{
 
 p.important {
     color: yellowgreen;
+}
+
+
+img {
+    width: 300px;
 }
