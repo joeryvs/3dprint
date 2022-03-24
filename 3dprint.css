@@ -16,13 +16,22 @@ div{
     align-content: flex-end;
     background-color: wheat;
     /* text-align: right; */
+    
 }
 
 p.important {
     color: yellowgreen;
 }
 
+p {
+    color: inherit;
+}
 
 img {
-    width: 300px;
+    width: initial;
+    border-radius: 10%;
+}
+
+span {
+    background-color: yellow;
 }
