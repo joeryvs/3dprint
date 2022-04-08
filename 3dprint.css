@@ -1,6 +1,7 @@
 body {
     background-color: tomato;
     border-radius: 100cm;
+    empty-cells: show;
 }
 
 
@@ -15,8 +16,18 @@ div{
     align-content: flex-end;
     background-color: wheat;
     /* text-align: right; */
+    
 }
 
 p.important {
     color: yellowgreen;
+}
+
+p {
+    color: inherit;
+}
+
+img {
+    width: initial;
+    border-radius: 10%;
 }
