@@ -1,13 +1,17 @@
 start = input(" ")
 
-file = "3dprint/footer.html"
-new_file = "3dprint/clean_footer.html"
 
-file = "C:\\Users\\coding\\Desktop\\larger-folder\\3dprint\\footer.html"
-new_file = "C:\\Users\\coding\\Desktop\\larger-folder\\3dprint\\clean_footer.html"
+if "!" in start:
+    quit()
+elif "&" in start:
+    pass
+elif "?" in start:
+    file = "C:\\Users\\coding\\Desktop\\larger-folder\\3dprint\\dropdDown_noJS.html"
+    new_file = "C:\\Users\\coding\\Desktop\\larger-folder\\3dprint\\clean_dropDown_noJS.html"  
 
-# file = f"3dprint/{start}.html"
-# new_file = f"3dprint/clean_{start}.html"
+else:
+    file = "C:\\Users\\coding\\Desktop\\larger-folder\\3dprint\\footer.html"
+    new_file = "C:\\Users\\coding\\Desktop\\larger-folder\\3dprint\\clean_footer.html"
 
 
 print(file)
