@@ -1,10 +1,13 @@
-start = input("")
+start = input(" ")
 
 file = "3dprint/footer.html"
 new_file = "3dprint/clean_footer.html"
 
-file = f"3dprint/{start}.html"
-new_file = f"3dprint/clean_{start}.html"
+file = "C:\\Users\\coding\\Desktop\\larger-folder\\3dprint\\footer.html"
+new_file = "C:\\Users\\coding\\Desktop\\larger-folder\\3dprint\\clean_footer.html"
+
+# file = f"3dprint/{start}.html"
+# new_file = f"3dprint/clean_{start}.html"
 
 
 print(file)
