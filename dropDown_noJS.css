@@ -1,5 +1,5 @@
 /* Dropdown summary Button */
-.dropbtn {
+.summary-text {
   background-color: #3498db;
   color: white;
   padding: 16px;
@@ -9,19 +9,19 @@
 }
 
 /* Dropdown button on hover & focus */
-.dropbtn:hover,
-.dropbtn:focus {
+summary.summary-text:hover,
+summary.summary-text:focus {
   background-color: #2980b9;
 }
 
-/* The container <div> - needed to position the dropdown content */
-.dropdown {
+/* The container <div> - needed to position the details_content content */
+.details_content {
   position: relative;
   display: inline-block;
 }
 
 /* Dropdown Content (Hidden by Default) */
-.dropdown-content {
+.details_content {
   position: absolute;
   background-color: #f1f1f1;
   min-width: 160px;
@@ -30,16 +30,16 @@
   z-index: 1;
 }
 
-/* Links inside the dropdown */
-.dropdown-content a {
+/* Links inside the details_content */
+.details_content a {
   color: black;
   padding: 12px 16px;
   text-decoration: none;
   display: block;
 }
 
-/* Change color of dropdown links on hover */
-.dropdown-content a:hover {
+/* Change color of details_content links on hover */
+.details_content a:hover {
   background-color: #ddd;
 }
 
@@ -47,7 +47,7 @@ div.overhead {
   display: flex;
   justify-content: space-evenly;
 }
-summary.dropbtn {
+.summary-text {
   min-width: calc(160px - 32px);
   max-width: 160px;
 }
