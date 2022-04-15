@@ -1,34 +1,30 @@
 body {
-    background-color: tomato;
-    border-radius: 100cm;
-    empty-cells: show;
+  background-color: tomato;
+  border-radius: 100cm;
+  empty-cells: show;
 }
 
-
-h1{
-    color:aqua
+h1 {
+  color: aqua;
 }
 
-
-div{
-    align-items: center;
-    align-self: center;
-    align-content: flex-end;
-    background-color: wheat;
-    /* width: fit-content; */
-    /* text-align: right; */
-    
+div {
+  background-color: wheat;
 }
 
 p.important {
-    color: yellowgreen;
+  color: yellowgreen;
+}
+
+p.explain {
+  font-size: medium;
 }
 
 p {
-    color: inherit;
+  color: inherit;
 }
 
 img {
-    width: fit-content;
-    border-radius: 30px;
+  width: fit-content;
+  border-radius: 30px;
 }

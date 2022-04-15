@@ -1,3 +1,32 @@
-div.foot {
+ div.foot {
     background-color: aqua;
+    display: grid;
+    grid-template-areas: 
+    "line1  line2"
 }  
+
+#line1 {
+    grid-area: line1;
+}
+
+#line2 {
+    grid-area: line2;
+}
+
+div.lower {
+    background-color: cornflowerblue; 
+    
+}
+
+
+ul.lower {
+    background-color: violet;
+    
+}
+
+
+li.upper {
+     display: list-item;
+    display: inline-block;
+    text-align: -webkit-match-parent; 
+ } 
