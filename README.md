@@ -2,5 +2,9 @@
 websiteHosting
 hello
 
-gaat goed met het bouwen.
-vanmiddag laat ik het aan mijn ouders zien denk ik.
+
+Website gaat goed,
+Dingen die ik nog moet doen:
+  betaalpagina maken,
+  Search engine optimazation,
+  Andere dingen
